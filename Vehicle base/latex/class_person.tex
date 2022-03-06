@@ -1,0 +1,265 @@
+\hypertarget{class_person}{}\doxysection{Dokumentacja klasy Person}
+\label{class_person}\index{Person@{Person}}
+
+
+{\ttfamily \#include $<$Person.\+h$>$}
+
+Diagram dziedziczenia dla Person\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_person}
+\end{center}
+\end{figure}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_person_a0397c6f89fafc12e738923f612bc41a3}{Person}} ()
+\item 
+\mbox{\hyperlink{class_person_a1923a151c87461f7ca74e5fc3c43f603}{Person}} (int idT, string nameT, string last\+NameT, string mailT, int phone\+NumberT, int birth\+YearT, string cityT, string streetT, string house\+NumberT)
+\item 
+string \mbox{\hyperlink{class_person_a9db2e2ccfc6cfa0d7979613ec2aaa922}{get\+Name}} () const
+\item 
+string \mbox{\hyperlink{class_person_a0fedd009eb25bdd8ece4882b13236a3c}{get\+Last\+Name}} () const
+\item 
+void \mbox{\hyperlink{class_person_a6705ea667e0634611d5a7446ced964a3}{print}} ()
+\item 
+void \mbox{\hyperlink{class_person_a2cbf62280d1b0e3b17fbfb28ef2e4522}{print\+For\+User}} ()
+\item 
+void \mbox{\hyperlink{class_person_a06e7381aa51b1fba70132a0c378d15a3}{add\+To\+Person\+List}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT, \mbox{\hyperlink{class_person}{Person}} \&personsT)
+\item 
+bool \mbox{\hyperlink{class_person_a7cffae6167f6493e0ac2e141f4310c12}{is\+Person\+In\+Base}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT, int idT)
+\item 
+void \mbox{\hyperlink{class_person_ac692154aa725ccb872e232c7d057791c}{add\+From\+File}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PersonsT)
+\item 
+void \mbox{\hyperlink{class_person_aa3c1fe9962b276c85c2bef27338ca533}{show\+Persons}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ list\+Of\+PeronsT, int is\+Admin)
+\item 
+void \mbox{\hyperlink{class_person_abc8f088d3998709efb7932d7a7f5a24f}{to\+File}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT)
+\item 
+void \mbox{\hyperlink{class_person_a3eee3cf2066f8fcb7678c2547f0e9fa0}{add\+New\+Person}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT)
+\item 
+void \mbox{\hyperlink{class_person_ae455d05815390d92f0c5eeb22af84c98}{delete\+From\+List}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT, int idT)
+\item 
+int \mbox{\hyperlink{class_person_a96ea62d04979161008884c24fea0b9fb}{delete\+Person}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&list\+Of\+PeronsT)
+\item 
+void \mbox{\hyperlink{class_person_a6fb7ac243f42b85e89fb84bd468239bf}{show\+Person}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ list\+Of\+PeronsT, int is\+Admin, int idP)
+\item 
+int \mbox{\hyperlink{class_person_a872623a8060115f7e076da33ff3c0e9e}{is\+Given\+Person\+In\+Base}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ list\+Of\+PeronsT, string nameT, string last\+NameT)
+\item 
+int \mbox{\hyperlink{class_person_a1ca7eeed729fb93eddd62169de04885c}{is\+City\+In\+Base}} (list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ list\+Of\+PeronsT, string cityT)
+\end{DoxyCompactItemize}
+\doxysubsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa reprezentująca obiekt \mbox{\hyperlink{class_person}{Person}}, dziedzicząca publicznie po klasie \mbox{\hyperlink{class_data}{Data}} 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_person_a0397c6f89fafc12e738923f612bc41a3}\label{class_person_a0397c6f89fafc12e738923f612bc41a3}} 
+\index{Person@{Person}!Person@{Person}}
+\index{Person@{Person}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{Person()}{Person()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Person\+::\+Person (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Konstruktor domyślny korzystający z konstuktora klasy dziedzicznej \mbox{\Hypertarget{class_person_a1923a151c87461f7ca74e5fc3c43f603}\label{class_person_a1923a151c87461f7ca74e5fc3c43f603}} 
+\index{Person@{Person}!Person@{Person}}
+\index{Person@{Person}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{Person()}{Person()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Person\+::\+Person (\begin{DoxyParamCaption}\item[{int}]{idT,  }\item[{string}]{nameT,  }\item[{string}]{last\+NameT,  }\item[{string}]{mailT,  }\item[{int}]{phone\+NumberT,  }\item[{int}]{birth\+YearT,  }\item[{string}]{cityT,  }\item[{string}]{streetT,  }\item[{string}]{house\+NumberT }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Konstruktor dziewięcioargumentowy 
+\begin{DoxyParams}{Parametry}
+{\em idT} & Zawiera numer id osoby \\
+\hline
+{\em nameT} & Zawiera imię osoby \\
+\hline
+{\em last\+NameT} & Zawiera nazwisko osoby \\
+\hline
+{\em mailT} & Zawiera adres mailowy \\
+\hline
+{\em phone\+NumberT} & Zawiera numer telefonu \\
+\hline
+{\em birth\+YearT} & Zawiera rok urodzenia \\
+\hline
+{\em cityT} & Zawiera nazwę miejscowości \\
+\hline
+{\em streetT} & Zawiera nazwę ulicy \\
+\hline
+{\em house\+NumberT} & Zawiera numer domu/mieszkania \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_person_ac692154aa725ccb872e232c7d057791c}\label{class_person_ac692154aa725ccb872e232c7d057791c}} 
+\index{Person@{Person}!addFromFile@{addFromFile}}
+\index{addFromFile@{addFromFile}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addFromFile()}{addFromFile()}}
+{\footnotesize\ttfamily void Person\+::add\+From\+File (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PersonsT }\end{DoxyParamCaption})}
+
+Metoda służąca do odczytywania danych z pliku txt, następnie tworząca obiekt klasy \mbox{\hyperlink{class_person}{Person}} i przekazująca do metody \mbox{\hyperlink{class_person_a06e7381aa51b1fba70132a0c378d15a3}{add\+To\+Person\+List()}} 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PersonsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a3eee3cf2066f8fcb7678c2547f0e9fa0}\label{class_person_a3eee3cf2066f8fcb7678c2547f0e9fa0}} 
+\index{Person@{Person}!addNewPerson@{addNewPerson}}
+\index{addNewPerson@{addNewPerson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addNewPerson()}{addNewPerson()}}
+{\footnotesize\ttfamily void Person\+::add\+New\+Person (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT }\end{DoxyParamCaption})}
+
+Metoda dodająca nową osobę do bazy 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a06e7381aa51b1fba70132a0c378d15a3}\label{class_person_a06e7381aa51b1fba70132a0c378d15a3}} 
+\index{Person@{Person}!addToPersonList@{addToPersonList}}
+\index{addToPersonList@{addToPersonList}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{addToPersonList()}{addToPersonList()}}
+{\footnotesize\ttfamily void Person\+::add\+To\+Person\+List (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT,  }\item[{\mbox{\hyperlink{class_person}{Person}} \&}]{personsT }\end{DoxyParamCaption})}
+
+Metoda dodająca do listy STL obiekty klasy \mbox{\hyperlink{class_person}{Person}} 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em personsT} & Reprezentuje obiekt klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_ae455d05815390d92f0c5eeb22af84c98}\label{class_person_ae455d05815390d92f0c5eeb22af84c98}} 
+\index{Person@{Person}!deleteFromList@{deleteFromList}}
+\index{deleteFromList@{deleteFromList}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{deleteFromList()}{deleteFromList()}}
+{\footnotesize\ttfamily void Person\+::delete\+From\+List (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT,  }\item[{int}]{idT }\end{DoxyParamCaption})}
+
+Metoda usuwająca z listy osobę o podanym numerze id 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em idT} & Numer id do usunięcia z listy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a96ea62d04979161008884c24fea0b9fb}\label{class_person_a96ea62d04979161008884c24fea0b9fb}} 
+\index{Person@{Person}!deletePerson@{deletePerson}}
+\index{deletePerson@{deletePerson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{deletePerson()}{deletePerson()}}
+{\footnotesize\ttfamily int Person\+::delete\+Person (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT }\end{DoxyParamCaption})}
+
+Metoda usuwająca osobę z bazy 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a0fedd009eb25bdd8ece4882b13236a3c}\label{class_person_a0fedd009eb25bdd8ece4882b13236a3c}} 
+\index{Person@{Person}!getLastName@{getLastName}}
+\index{getLastName@{getLastName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getLastName()}{getLastName()}}
+{\footnotesize\ttfamily string Person\+::get\+Last\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zwracająca nazwisko osoby \mbox{\Hypertarget{class_person_a9db2e2ccfc6cfa0d7979613ec2aaa922}\label{class_person_a9db2e2ccfc6cfa0d7979613ec2aaa922}} 
+\index{Person@{Person}!getName@{getName}}
+\index{getName@{getName}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Person\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zwracająca imię osoby \mbox{\Hypertarget{class_person_a1ca7eeed729fb93eddd62169de04885c}\label{class_person_a1ca7eeed729fb93eddd62169de04885c}} 
+\index{Person@{Person}!isCityInBase@{isCityInBase}}
+\index{isCityInBase@{isCityInBase}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{isCityInBase()}{isCityInBase()}}
+{\footnotesize\ttfamily int Person\+::is\+City\+In\+Base (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$}]{list\+Of\+PeronsT,  }\item[{string}]{cityT }\end{DoxyParamCaption})}
+
+Metoda sprawdzająca czy istnieje taka miejscowość w bazie, jeśli tak to zwraca numer id osoby, która mieszka w tej miejscowości 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em cityT} & Zawiera nazwę miejscowości podane przez użytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a872623a8060115f7e076da33ff3c0e9e}\label{class_person_a872623a8060115f7e076da33ff3c0e9e}} 
+\index{Person@{Person}!isGivenPersonInBase@{isGivenPersonInBase}}
+\index{isGivenPersonInBase@{isGivenPersonInBase}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{isGivenPersonInBase()}{isGivenPersonInBase()}}
+{\footnotesize\ttfamily int Person\+::is\+Given\+Person\+In\+Base (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$}]{list\+Of\+PeronsT,  }\item[{string}]{nameT,  }\item[{string}]{last\+NameT }\end{DoxyParamCaption})}
+
+Metoda sprawdzająca czy osoba o podanym imieniu i nazwisku znajduje się w bazie i zwracająca jej numer id 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em nameT} & Zawiera imię wpisane przez użytkownika \\
+\hline
+{\em last\+NameT} & Zawiera nazwisko wpisane przez użytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a7cffae6167f6493e0ac2e141f4310c12}\label{class_person_a7cffae6167f6493e0ac2e141f4310c12}} 
+\index{Person@{Person}!isPersonInBase@{isPersonInBase}}
+\index{isPersonInBase@{isPersonInBase}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{isPersonInBase()}{isPersonInBase()}}
+{\footnotesize\ttfamily bool Person\+::is\+Person\+In\+Base (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT,  }\item[{int}]{idT }\end{DoxyParamCaption})}
+
+Metoda sprawdzająca czy osoba o podanym numerze id znajduje się w bazie 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em idT} & Numer id, który jest sprawdzany czy znajduje się w liście osób \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_a6705ea667e0634611d5a7446ced964a3}\label{class_person_a6705ea667e0634611d5a7446ced964a3}} 
+\index{Person@{Person}!print@{print}}
+\index{print@{print}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{print()}{print()}}
+{\footnotesize\ttfamily void Person\+::print (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Metoda przysłaniająca metodę wirtualną, służy do wyświetlenia pełnych informacji o osobie dla użytkownika 
+
+Implementuje \mbox{\hyperlink{class_data_aac0f34f660b47037634e0374eb33a500}{Data}}.
+
+\mbox{\Hypertarget{class_person_a2cbf62280d1b0e3b17fbfb28ef2e4522}\label{class_person_a2cbf62280d1b0e3b17fbfb28ef2e4522}} 
+\index{Person@{Person}!printForUser@{printForUser}}
+\index{printForUser@{printForUser}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{printForUser()}{printForUser()}}
+{\footnotesize\ttfamily void Person\+::print\+For\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Metoda wypisująca imię, nazwisko oraz miejscowość osoby dla użytkownika \mbox{\Hypertarget{class_person_a6fb7ac243f42b85e89fb84bd468239bf}\label{class_person_a6fb7ac243f42b85e89fb84bd468239bf}} 
+\index{Person@{Person}!showPerson@{showPerson}}
+\index{showPerson@{showPerson}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{showPerson()}{showPerson()}}
+{\footnotesize\ttfamily void Person\+::show\+Person (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$}]{list\+Of\+PeronsT,  }\item[{int}]{is\+Admin,  }\item[{int}]{idP }\end{DoxyParamCaption})}
+
+Metoda wyświetlająca informację o podanej osobie (pełne informacje są tylko ukazywane adminowi) 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em is\+Admin} & Zawiera informację czy osoba wywołująca metodę jest adminem \\
+\hline
+{\em idP} & Zawiera id osoby, której informacje mają być wyświetlone \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_aa3c1fe9962b276c85c2bef27338ca533}\label{class_person_aa3c1fe9962b276c85c2bef27338ca533}} 
+\index{Person@{Person}!showPersons@{showPersons}}
+\index{showPersons@{showPersons}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{showPersons()}{showPersons()}}
+{\footnotesize\ttfamily void Person\+::show\+Persons (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$}]{list\+Of\+PeronsT,  }\item[{int}]{is\+Admin }\end{DoxyParamCaption})}
+
+Metoda w zależności od tego czy użytkownik jest adminem wyświetla pełne bądź tylko ogólne informacje o osobach w bazie 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+{\em is\+Admin} & Zawiera informację czy użytkownik wywołujący tę metodę ma uprawnienia admina (1 -\/ ma) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_person_abc8f088d3998709efb7932d7a7f5a24f}\label{class_person_abc8f088d3998709efb7932d7a7f5a24f}} 
+\index{Person@{Person}!toFile@{toFile}}
+\index{toFile@{toFile}!Person@{Person}}
+\doxysubsubsection{\texorpdfstring{toFile()}{toFile()}}
+{\footnotesize\ttfamily void Person\+::to\+File (\begin{DoxyParamCaption}\item[{list$<$ \mbox{\hyperlink{class_person}{Person}} $>$ \&}]{list\+Of\+PeronsT }\end{DoxyParamCaption})}
+
+Metoda zapisująca do pliku txt zawartość listy person 
+\begin{DoxyParams}{Parametry}
+{\em list\+Of\+PeronsT} & lista STL zawierająca obiekty klasy \mbox{\hyperlink{class_person}{Person}} \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_person_8h}{Person.\+h}}\item 
+Person.\+cpp\end{DoxyCompactItemize}

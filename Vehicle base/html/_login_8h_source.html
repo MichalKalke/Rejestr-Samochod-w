@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vehicle Base: Plik źródłowy Login.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vehicle Base
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Login.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_login_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef Login_h</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#define Login_h</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;list&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_8h.html">Data.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_vehicle_8h.html">Vehicle.h</a>&quot;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_person_8h.html">Person.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_login.html">   21</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_login.html">Login</a> {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="class_login.html#a7744f703bdb295af77b02d865ec58b19">   23</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_login.html#a7744f703bdb295af77b02d865ec58b19">userID</a>; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_login.html#a9731be126468f535f161f045c95687c6">   24</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_login.html#a9731be126468f535f161f045c95687c6">userPassword</a>; </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_login.html#a0b5bba795c692df92eb2f26deeaf0b91">   25</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_login.html#a0b5bba795c692df92eb2f26deeaf0b91">isAdmin</a>; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_login.html#a4847f3e07e43b540d3339392346f87ff">   29</a></span>&#160;    <a class="code" href="class_login.html#a4847f3e07e43b540d3339392346f87ff">Login</a>() :userID(111), userPassword(<span class="stringliteral">&quot;mama&quot;</span>), isAdmin(0) {}</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <a class="code" href="class_login.html">Login</a>(<span class="keywordtype">int</span> userIDT, <span class="keywordtype">string</span> passwordT, <span class="keywordtype">bool</span> isAdminT);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">bool</span> isIdNumber(<span class="keywordtype">string</span> str);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> show();</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_login.html#a033948d3640ed25060922c4455ffe4c8">   45</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="class_login.html#a033948d3640ed25060922c4455ffe4c8">getUserID</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> userID; }</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_login.html#a12f3dd583f4dc524c56565225407dbef">   48</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_login.html#a12f3dd583f4dc524c56565225407dbef">getPassword</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> userPassword; }</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="class_login.html#ac2c9f8f69b3ba55298f19ed4621792ab">   51</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="class_login.html#ac2c9f8f69b3ba55298f19ed4621792ab">getIsAdmin</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> isAdmin; }</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">void</span> setPassword(<span class="keywordtype">string</span> password);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordtype">void</span> addToList(<a class="code" href="class_login.html">Login</a>&amp; userT, list&lt;Login&gt;&amp; listOfUserT);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> addFromFile(list&lt;Login&gt;&amp; listOfUsersT);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> show(list&lt;Login&gt; listOfUserT);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">int</span> searchForUser(<a class="code" href="class_login.html">Login</a>&amp; userT, list&lt;Login&gt;&amp; listOfUsersT, <span class="keywordtype">int</span> number, <span class="keywordtype">string</span> password, list&lt;Vehicle&gt;&amp; listOfVehiclesT, list&lt;Person&gt;&amp; listOfPersonsT, <a class="code" href="class_person.html">Person</a>&amp; personsT);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> normalUserMenu(<a class="code" href="class_login.html">Login</a>&amp; userT, list&lt;Login&gt;&amp; listOfUsersT, list&lt;Vehicle&gt;&amp; listOfVehiclesT, list&lt;Person&gt;&amp; listOfPersonsT, <a class="code" href="class_person.html">Person</a>&amp; personsT);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> changePassword(<a class="code" href="class_login.html">Login</a>&amp; userT, <span class="keywordtype">string</span> password, list&lt;Login&gt;&amp; listOfUsersT);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> toFile(list&lt;Login&gt;&amp; listOfUsersT, <a class="code" href="class_login.html">Login</a>&amp; userT);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">void</span> adminUserMenu(<a class="code" href="class_login.html">Login</a>&amp; userT, list&lt;Login&gt;&amp; listOfUsersT, list&lt;Vehicle&gt;&amp; listOfVehiclesT, list&lt;Person&gt;&amp; listOfPersonsT, <a class="code" href="class_person.html">Person</a>&amp; personsT);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">bool</span> isUserInBase(list&lt;Login&gt;&amp; listOfUsersT, <span class="keywordtype">int</span> <span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">void</span> changeAnyPassword(<a class="code" href="class_login.html">Login</a>&amp; userT, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, <span class="keywordtype">string</span> password, list&lt;Login&gt;&amp; listOfUsersT);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">void</span> deleteFromBase(<a class="code" href="class_login.html">Login</a>&amp; userT, <span class="keywordtype">int</span> <span class="keywordtype">id</span>, list&lt;Login&gt;&amp; listOfUsersT);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordtype">bool</span> isIdInBase(list&lt;Login&gt;&amp; listOfUsersT, <span class="keywordtype">int</span> idT);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">void</span> addUser(list&lt;Login&gt;&amp; listOfUsersT);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;};</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !Login_h</span></div>
+<div class="ttc" id="a_data_8h_html"><div class="ttname"><a href="_data_8h.html">Data.h</a></div></div>
+<div class="ttc" id="a_person_8h_html"><div class="ttname"><a href="_person_8h.html">Person.h</a></div></div>
+<div class="ttc" id="a_vehicle_8h_html"><div class="ttname"><a href="_vehicle_8h.html">Vehicle.h</a></div></div>
+<div class="ttc" id="aclass_login_html"><div class="ttname"><a href="class_login.html">Login</a></div><div class="ttdef"><b>Definition:</b> Login.h:21</div></div>
+<div class="ttc" id="aclass_login_html_a033948d3640ed25060922c4455ffe4c8"><div class="ttname"><a href="class_login.html#a033948d3640ed25060922c4455ffe4c8">Login::getUserID</a></div><div class="ttdeci">int getUserID() const</div><div class="ttdef"><b>Definition:</b> Login.h:45</div></div>
+<div class="ttc" id="aclass_login_html_a0b5bba795c692df92eb2f26deeaf0b91"><div class="ttname"><a href="class_login.html#a0b5bba795c692df92eb2f26deeaf0b91">Login::isAdmin</a></div><div class="ttdeci">bool isAdmin</div><div class="ttdoc">Zawiera informację czy osoba logująca się jest adminem.</div><div class="ttdef"><b>Definition:</b> Login.h:25</div></div>
+<div class="ttc" id="aclass_login_html_a12f3dd583f4dc524c56565225407dbef"><div class="ttname"><a href="class_login.html#a12f3dd583f4dc524c56565225407dbef">Login::getPassword</a></div><div class="ttdeci">string getPassword() const</div><div class="ttdef"><b>Definition:</b> Login.h:48</div></div>
+<div class="ttc" id="aclass_login_html_a4847f3e07e43b540d3339392346f87ff"><div class="ttname"><a href="class_login.html#a4847f3e07e43b540d3339392346f87ff">Login::Login</a></div><div class="ttdeci">Login()</div><div class="ttdef"><b>Definition:</b> Login.h:29</div></div>
+<div class="ttc" id="aclass_login_html_a7744f703bdb295af77b02d865ec58b19"><div class="ttname"><a href="class_login.html#a7744f703bdb295af77b02d865ec58b19">Login::userID</a></div><div class="ttdeci">int userID</div><div class="ttdoc">Zawiera numer id osoby logującej się do bazy.</div><div class="ttdef"><b>Definition:</b> Login.h:23</div></div>
+<div class="ttc" id="aclass_login_html_a9731be126468f535f161f045c95687c6"><div class="ttname"><a href="class_login.html#a9731be126468f535f161f045c95687c6">Login::userPassword</a></div><div class="ttdeci">string userPassword</div><div class="ttdoc">Zawiera hasło osoby logującej się do bazy.</div><div class="ttdef"><b>Definition:</b> Login.h:24</div></div>
+<div class="ttc" id="aclass_login_html_ac2c9f8f69b3ba55298f19ed4621792ab"><div class="ttname"><a href="class_login.html#ac2c9f8f69b3ba55298f19ed4621792ab">Login::getIsAdmin</a></div><div class="ttdeci">bool getIsAdmin() const</div><div class="ttdef"><b>Definition:</b> Login.h:51</div></div>
+<div class="ttc" id="aclass_person_html"><div class="ttname"><a href="class_person.html">Person</a></div><div class="ttdef"><b>Definition:</b> Person.h:17</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

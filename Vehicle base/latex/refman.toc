@@ -1,0 +1,133 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks hierarchiczny}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Hierarchia klas}{1}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Indeks klas}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Lista klas}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Indeks plików}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Lista plików}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Dokumentacja klas}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Dokumentacja klasy Connections}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Opis szczegółowy}{8}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Dokumentacja konstruktora i destruktora}{8}{subsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2.1}Connections()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{8}{subsubsection.4.1.2.1}%
+\contentsline {subsubsection}{\numberline {4.1.2.2}Connections()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{8}{subsubsection.4.1.2.2}%
+\contentsline {subsection}{\numberline {4.1.3}Dokumentacja funkcji składowych}{8}{subsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.1}addConnection()}{8}{subsubsection.4.1.3.1}%
+\contentsline {subsubsection}{\numberline {4.1.3.2}addFromFile()}{9}{subsubsection.4.1.3.2}%
+\contentsline {subsubsection}{\numberline {4.1.3.3}addToConnectionsList()}{9}{subsubsection.4.1.3.3}%
+\contentsline {subsubsection}{\numberline {4.1.3.4}checkIfConnectionExists()}{9}{subsubsection.4.1.3.4}%
+\contentsline {subsubsection}{\numberline {4.1.3.5}deleteConnection()}{10}{subsubsection.4.1.3.5}%
+\contentsline {subsubsection}{\numberline {4.1.3.6}deleteFromList()}{10}{subsubsection.4.1.3.6}%
+\contentsline {subsubsection}{\numberline {4.1.3.7}deleteWhenPerson()}{10}{subsubsection.4.1.3.7}%
+\contentsline {subsubsection}{\numberline {4.1.3.8}deleteWhenVehicle()}{12}{subsubsection.4.1.3.8}%
+\contentsline {subsubsection}{\numberline {4.1.3.9}findUserByVehicle()}{12}{subsubsection.4.1.3.9}%
+\contentsline {subsubsection}{\numberline {4.1.3.10}findVehicleByUser()}{12}{subsubsection.4.1.3.10}%
+\contentsline {subsubsection}{\numberline {4.1.3.11}print()}{13}{subsubsection.4.1.3.11}%
+\contentsline {subsubsection}{\numberline {4.1.3.12}showConnections()}{13}{subsubsection.4.1.3.12}%
+\contentsline {subsubsection}{\numberline {4.1.3.13}showUserCars()}{13}{subsubsection.4.1.3.13}%
+\contentsline {subsubsection}{\numberline {4.1.3.14}toFile()}{14}{subsubsection.4.1.3.14}%
+\contentsline {section}{\numberline {4.2}Dokumentacja klasy Data}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Opis szczegółowy}{14}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Dokumentacja konstruktora i destruktora}{15}{subsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2.1}Data()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{15}{subsubsection.4.2.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2.2}Data()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{15}{subsubsection.4.2.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Dokumentacja funkcji składowych}{15}{subsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3.1}print()}{15}{subsubsection.4.2.3.1}%
+\contentsline {section}{\numberline {4.3}Dokumentacja klasy Login}{15}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Opis szczegółowy}{16}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Dokumentacja konstruktora i destruktora}{16}{subsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2.1}Login()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{16}{subsubsection.4.3.2.1}%
+\contentsline {subsubsection}{\numberline {4.3.2.2}Login()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{17}{subsubsection.4.3.2.2}%
+\contentsline {subsection}{\numberline {4.3.3}Dokumentacja funkcji składowych}{17}{subsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.1}addFromFile()}{17}{subsubsection.4.3.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.3.2}addToList()}{17}{subsubsection.4.3.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3.3}addUser()}{18}{subsubsection.4.3.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3.4}adminUserMenu()}{18}{subsubsection.4.3.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.3.5}changeAnyPassword()}{18}{subsubsection.4.3.3.5}%
+\contentsline {subsubsection}{\numberline {4.3.3.6}changePassword()}{19}{subsubsection.4.3.3.6}%
+\contentsline {subsubsection}{\numberline {4.3.3.7}deleteFromBase()}{19}{subsubsection.4.3.3.7}%
+\contentsline {subsubsection}{\numberline {4.3.3.8}getIsAdmin()}{19}{subsubsection.4.3.3.8}%
+\contentsline {subsubsection}{\numberline {4.3.3.9}getPassword()}{19}{subsubsection.4.3.3.9}%
+\contentsline {subsubsection}{\numberline {4.3.3.10}getUserID()}{20}{subsubsection.4.3.3.10}%
+\contentsline {subsubsection}{\numberline {4.3.3.11}isIdInBase()}{20}{subsubsection.4.3.3.11}%
+\contentsline {subsubsection}{\numberline {4.3.3.12}isIdNumber()}{20}{subsubsection.4.3.3.12}%
+\contentsline {subsubsection}{\numberline {4.3.3.13}isUserInBase()}{20}{subsubsection.4.3.3.13}%
+\contentsline {subsubsection}{\numberline {4.3.3.14}normalUserMenu()}{21}{subsubsection.4.3.3.14}%
+\contentsline {subsubsection}{\numberline {4.3.3.15}searchForUser()}{21}{subsubsection.4.3.3.15}%
+\contentsline {subsubsection}{\numberline {4.3.3.16}setPassword()}{22}{subsubsection.4.3.3.16}%
+\contentsline {subsubsection}{\numberline {4.3.3.17}show()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{22}{subsubsection.4.3.3.17}%
+\contentsline {subsubsection}{\numberline {4.3.3.18}show()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{subsubsection.4.3.3.18}%
+\contentsline {subsubsection}{\numberline {4.3.3.19}toFile()}{22}{subsubsection.4.3.3.19}%
+\contentsline {section}{\numberline {4.4}Dokumentacja klasy Menu}{23}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Dokumentacja funkcji składowych}{23}{subsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.1}begin()}{23}{subsubsection.4.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.4.1.2}changePassword()}{24}{subsubsection.4.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.4.1.3}changeUserPassword()}{24}{subsubsection.4.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.4.1.4}checkIfContinue()}{24}{subsubsection.4.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.4.1.5}checkWithPattern()}{25}{subsubsection.4.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.4.1.6}deleteUser()}{25}{subsubsection.4.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.4.1.7}fromWhereVehicle()}{25}{subsubsection.4.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.4.1.8}guestOptions()}{26}{subsubsection.4.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.4.1.9}login()}{26}{subsubsection.4.4.1.9}%
+\contentsline {subsubsection}{\numberline {4.4.1.10}loginOrGuest()}{26}{subsubsection.4.4.1.10}%
+\contentsline {subsubsection}{\numberline {4.4.1.11}userChoice()}{27}{subsubsection.4.4.1.11}%
+\contentsline {subsubsection}{\numberline {4.4.1.12}whichVehiclePersonHave()}{27}{subsubsection.4.4.1.12}%
+\contentsline {subsubsection}{\numberline {4.4.1.13}whoseVehicle()}{28}{subsubsection.4.4.1.13}%
+\contentsline {section}{\numberline {4.5}Dokumentacja klasy Person}{28}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Opis szczegółowy}{29}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Dokumentacja konstruktora i destruktora}{29}{subsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.2.1}Person()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{29}{subsubsection.4.5.2.1}%
+\contentsline {subsubsection}{\numberline {4.5.2.2}Person()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{29}{subsubsection.4.5.2.2}%
+\contentsline {subsection}{\numberline {4.5.3}Dokumentacja funkcji składowych}{30}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}addFromFile()}{30}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}addNewPerson()}{30}{subsubsection.4.5.3.2}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}addToPersonList()}{30}{subsubsection.4.5.3.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.4}deleteFromList()}{31}{subsubsection.4.5.3.4}%
+\contentsline {subsubsection}{\numberline {4.5.3.5}deletePerson()}{31}{subsubsection.4.5.3.5}%
+\contentsline {subsubsection}{\numberline {4.5.3.6}getLastName()}{31}{subsubsection.4.5.3.6}%
+\contentsline {subsubsection}{\numberline {4.5.3.7}getName()}{31}{subsubsection.4.5.3.7}%
+\contentsline {subsubsection}{\numberline {4.5.3.8}isCityInBase()}{31}{subsubsection.4.5.3.8}%
+\contentsline {subsubsection}{\numberline {4.5.3.9}isGivenPersonInBase()}{32}{subsubsection.4.5.3.9}%
+\contentsline {subsubsection}{\numberline {4.5.3.10}isPersonInBase()}{32}{subsubsection.4.5.3.10}%
+\contentsline {subsubsection}{\numberline {4.5.3.11}print()}{32}{subsubsection.4.5.3.11}%
+\contentsline {subsubsection}{\numberline {4.5.3.12}printForUser()}{33}{subsubsection.4.5.3.12}%
+\contentsline {subsubsection}{\numberline {4.5.3.13}showPerson()}{33}{subsubsection.4.5.3.13}%
+\contentsline {subsubsection}{\numberline {4.5.3.14}showPersons()}{33}{subsubsection.4.5.3.14}%
+\contentsline {subsubsection}{\numberline {4.5.3.15}toFile()}{33}{subsubsection.4.5.3.15}%
+\contentsline {section}{\numberline {4.6}Dokumentacja klasy User}{34}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Opis szczegółowy}{34}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Dokumentacja konstruktora i destruktora}{34}{subsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.2.1}User()}{34}{subsubsection.4.6.2.1}%
+\contentsline {subsection}{\numberline {4.6.3}Dokumentacja funkcji składowych}{34}{subsection.4.6.3}%
+\contentsline {subsubsection}{\numberline {4.6.3.1}getIsAdmin()}{34}{subsubsection.4.6.3.1}%
+\contentsline {subsubsection}{\numberline {4.6.3.2}guestMenu()}{34}{subsubsection.4.6.3.2}%
+\contentsline {section}{\numberline {4.7}Dokumentacja klasy Vehicle}{35}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Opis szczegółowy}{35}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Dokumentacja konstruktora i destruktora}{36}{subsection.4.7.2}%
+\contentsline {subsubsection}{\numberline {4.7.2.1}Vehicle()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{36}{subsubsection.4.7.2.1}%
+\contentsline {subsubsection}{\numberline {4.7.2.2}Vehicle()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{36}{subsubsection.4.7.2.2}%
+\contentsline {subsection}{\numberline {4.7.3}Dokumentacja funkcji składowych}{36}{subsection.4.7.3}%
+\contentsline {subsubsection}{\numberline {4.7.3.1}addFromFile()}{36}{subsubsection.4.7.3.1}%
+\contentsline {subsubsection}{\numberline {4.7.3.2}addNewVehicle()}{37}{subsubsection.4.7.3.2}%
+\contentsline {subsubsection}{\numberline {4.7.3.3}addToVehicleList()}{37}{subsubsection.4.7.3.3}%
+\contentsline {subsubsection}{\numberline {4.7.3.4}deleteFromList()}{37}{subsubsection.4.7.3.4}%
+\contentsline {subsubsection}{\numberline {4.7.3.5}deleteVehicle()}{38}{subsubsection.4.7.3.5}%
+\contentsline {subsubsection}{\numberline {4.7.3.6}getBrand()}{38}{subsubsection.4.7.3.6}%
+\contentsline {subsubsection}{\numberline {4.7.3.7}isVehicleInBase()}{38}{subsubsection.4.7.3.7}%
+\contentsline {subsubsection}{\numberline {4.7.3.8}print()}{38}{subsubsection.4.7.3.8}%
+\contentsline {subsubsection}{\numberline {4.7.3.9}printForUser()}{39}{subsubsection.4.7.3.9}%
+\contentsline {subsubsection}{\numberline {4.7.3.10}searchForVehicle()}{39}{subsubsection.4.7.3.10}%
+\contentsline {subsubsection}{\numberline {4.7.3.11}showUserVehicles()}{39}{subsubsection.4.7.3.11}%
+\contentsline {subsubsection}{\numberline {4.7.3.12}showVehicle()}{39}{subsubsection.4.7.3.12}%
+\contentsline {subsubsection}{\numberline {4.7.3.13}showVehicles()}{40}{subsubsection.4.7.3.13}%
+\contentsline {subsubsection}{\numberline {4.7.3.14}toFile()}{40}{subsubsection.4.7.3.14}%
+\contentsline {chapter}{\numberline {5}Dokumentacja plików}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dokumentacja pliku Connections.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Dokumentacja pliku Data.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{41}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Dokumentacja pliku Login.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{41}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Dokumentacja pliku Menu.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Dokumentacja pliku Person.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Dokumentacja pliku User.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{42}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Dokumentacja pliku Vehicle.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{43}{section.5.7}%
+\contentsline {chapter}{Indeks}{45}{section*.24}%

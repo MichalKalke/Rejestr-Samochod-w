@@ -1,0 +1,39 @@
+290368 Apollin 1
+110195 Swinka 1
+170860 lolek 0
+111111 password 0
+290368 Michal Klke michalklke@gmail.com 661073310 2000 Koty Ogrodowa 20
+200473 Ala Madrala madrala@wp.pl 777132421 2000 Piekary Piekarska 1
+190199 Krzysztof Kris chomiczek@chrum.cz 604123568 2000 Katowice Podlaska 7
+120362 Jakub Klke jk@gmail.com 502466034 1989 Warszawa Warszawska 16/2
+829377 Tomasz Oplane gigaszef@wp.pl 666073308 2000 Strzybnica Kozacka 11
+100007 Johny English johnyen@kill.men 100000000 1964 Londyn Tajna 2
+100000 James Bond bond@james.com 100000007 1977 Londyn Tajna 1
+
+12 samochod Ferrari F12 700 V12 RossoCorsa
+458 samochod Ferrari Italia 550 V8 Nero
+141 samochod Ford Fiesta 140 I3 Czarny
+777 samochod AstonMartin DB11 999 V12 Srebrny
+999 lodz Brabus B5 800 V16 Matowy
+0 samochod RollsRoyce Phantom 1500 W16 Marmurowy
+1 samolot RollsRoyce Speedster 2000 W16 Zolty
+5 samochod Tesla CyberTruck 1200 elektryk Matowy
+7 samochod Porsche Taycan 1000 elektryk Szmaragdowy
+13 motocykl Duccati Superleggera 218 V4 Krwawy
+6 samochod Audi RS6 650 V8 Bialy
+997 samochod Bugatti LaVoiture 1550 W16 Grafitowy
+650 samolot Gulfstream G650 4500 V12 BialyMarmur
+20 lodz Krzychu Chomiczkowy 2000 W16 Transparent
+99 samochod Ferrari Enzo 510 V12 RossoCorsa
+
+290368 458
+200473 997 
+120362 7 
+190199 6
+290368 141 
+100000 777 
+100007 0 
+829377 5 
+120362 999 
+200473 13
+100007 1

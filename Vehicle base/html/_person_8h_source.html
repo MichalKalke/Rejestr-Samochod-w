@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Vehicle Base: Plik źródłowy Person.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Vehicle Base
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Person.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_person_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef Person_h</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#define Person_h</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;iterator&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;list&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_data_8h.html">Data.h</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">using namespace </span>std;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_person.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_person.html">Person</a> :<span class="keyword">public</span> <a class="code" href="class_data.html">Data</a> {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">string</span> name; </div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">string</span> lastName; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">string</span> mail; </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> phoneNumber; </div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">int</span> birthYear; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">string</span> city; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">string</span> street; </div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">string</span> houseNumber; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_person.html#a0397c6f89fafc12e738923f612bc41a3">   30</a></span>&#160;    <a class="code" href="class_person.html#a0397c6f89fafc12e738923f612bc41a3">Person</a>() :<a class="code" href="class_data.html">Data</a>(100000), name(<span class="stringliteral">&quot;Imie&quot;</span>), lastName(<span class="stringliteral">&quot;Nazwisko&quot;</span>), mail(<span class="stringliteral">&quot;mk@gmail.com&quot;</span>), phoneNumber(718911812), birthYear(2000), city(<span class="stringliteral">&quot;Miasto&quot;</span>), street(<span class="stringliteral">&quot;Ulica&quot;</span>), houseNumber(<span class="stringliteral">&quot;1A&quot;</span>) {}</div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_person.html#a1923a151c87461f7ca74e5fc3c43f603">   42</a></span>&#160;    <a class="code" href="class_person.html#a1923a151c87461f7ca74e5fc3c43f603">Person</a>(<span class="keywordtype">int</span> idT, <span class="keywordtype">string</span> nameT, <span class="keywordtype">string</span> lastNameT, <span class="keywordtype">string</span> mailT, <span class="keywordtype">int</span> phoneNumberT, <span class="keywordtype">int</span> birthYearT, <span class="keywordtype">string</span> cityT, <span class="keywordtype">string</span> streetT, <span class="keywordtype">string</span> houseNumberT) : <a class="code" href="class_data.html">Data</a>(idT), name(nameT), lastName(lastNameT), mail(mailT), phoneNumber(phoneNumberT), birthYear(birthYearT), city(cityT), street(streetT), houseNumber(houseNumberT) {}</div>
+<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="class_person.html#a9db2e2ccfc6cfa0d7979613ec2aaa922">   45</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_person.html#a9db2e2ccfc6cfa0d7979613ec2aaa922">getName</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> name; }</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_person.html#a0fedd009eb25bdd8ece4882b13236a3c">   48</a></span>&#160;    <span class="keywordtype">string</span> <a class="code" href="class_person.html#a0fedd009eb25bdd8ece4882b13236a3c">getLastName</a>()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> lastName; }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> print();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordtype">void</span> printForUser();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">void</span> addToPersonList(list&lt;Person&gt;&amp; listOfPeronsT, <a class="code" href="class_person.html">Person</a>&amp; personsT);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">bool</span> isPersonInBase(list&lt;Person&gt;&amp; listOfPeronsT, <span class="keywordtype">int</span> idT);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">void</span> addFromFile(list&lt;Person&gt;&amp; listOfPersonsT);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordtype">void</span> showPersons(list&lt;Person&gt; listOfPeronsT, <span class="keywordtype">int</span> isAdmin);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordtype">void</span> toFile(list&lt;Person&gt;&amp; listOfPeronsT);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> addNewPerson(list&lt;Person&gt;&amp; listOfPeronsT);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> deleteFromList(list&lt;Person&gt;&amp; listOfPeronsT, <span class="keywordtype">int</span> idT);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordtype">int</span> deletePerson(list&lt;Person&gt;&amp; listOfPeronsT);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">void</span> showPerson(list&lt;Person&gt; listOfPeronsT, <span class="keywordtype">int</span> isAdmin, <span class="keywordtype">int</span> idP);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> isGivenPersonInBase(list&lt;Person&gt; listOfPeronsT, <span class="keywordtype">string</span> nameT, <span class="keywordtype">string</span> lastNameT);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordtype">int</span> isCityInBase(list&lt;Person&gt; listOfPeronsT, <span class="keywordtype">string</span> cityT);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;};</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// !Person_h</span></div>
+<div class="ttc" id="a_data_8h_html"><div class="ttname"><a href="_data_8h.html">Data.h</a></div></div>
+<div class="ttc" id="aclass_data_html"><div class="ttname"><a href="class_data.html">Data</a></div><div class="ttdef"><b>Definition:</b> Data.h:12</div></div>
+<div class="ttc" id="aclass_person_html"><div class="ttname"><a href="class_person.html">Person</a></div><div class="ttdef"><b>Definition:</b> Person.h:17</div></div>
+<div class="ttc" id="aclass_person_html_a0397c6f89fafc12e738923f612bc41a3"><div class="ttname"><a href="class_person.html#a0397c6f89fafc12e738923f612bc41a3">Person::Person</a></div><div class="ttdeci">Person()</div><div class="ttdef"><b>Definition:</b> Person.h:30</div></div>
+<div class="ttc" id="aclass_person_html_a0fedd009eb25bdd8ece4882b13236a3c"><div class="ttname"><a href="class_person.html#a0fedd009eb25bdd8ece4882b13236a3c">Person::getLastName</a></div><div class="ttdeci">string getLastName() const</div><div class="ttdef"><b>Definition:</b> Person.h:48</div></div>
+<div class="ttc" id="aclass_person_html_a1923a151c87461f7ca74e5fc3c43f603"><div class="ttname"><a href="class_person.html#a1923a151c87461f7ca74e5fc3c43f603">Person::Person</a></div><div class="ttdeci">Person(int idT, string nameT, string lastNameT, string mailT, int phoneNumberT, int birthYearT, string cityT, string streetT, string houseNumberT)</div><div class="ttdef"><b>Definition:</b> Person.h:42</div></div>
+<div class="ttc" id="aclass_person_html_a9db2e2ccfc6cfa0d7979613ec2aaa922"><div class="ttname"><a href="class_person.html#a9db2e2ccfc6cfa0d7979613ec2aaa922">Person::getName</a></div><div class="ttdeci">string getName() const</div><div class="ttdef"><b>Definition:</b> Person.h:45</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

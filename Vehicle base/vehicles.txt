@@ -1,0 +1,14 @@
+12 samochod Ferrari F12 700 V12 RossoCorsa
+458 samochod Ferrari Italia 550 V8 Nero
+141 samochod Ford Fiesta 140 I3 Czarny
+777 samochod AstonMartin DB11 999 V12 Srebrny
+999 lodz Brabus B5 800 V16 Matowy
+2 samochod RollsRoyce Phantom 1500 W16 Marmurowy
+1 samolot RollsRoyce Speedster 2000 W16 Zolty
+5 samochod Tesla CyberTruck 1200 elektryk Matowy
+7 samochod Porsche Taycan 1000 elektryk Szmaragdowy
+13 motocykl Duccati Superleggera 218 V4 Krwawy
+6 samochod Audi RS6 650 V8 Bialy
+997 samochod Bugatti LaVoiture 1550 W16 Grafitowy
+650 samolot Gulfstream G650 4500 V12 BialyMarmur
+20 lodz Krzychu Chomiczkowy 2000 W16 Transparent
