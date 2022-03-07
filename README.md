@@ -2,10 +2,11 @@
 
 This program is a cmd application for a vehilce base of users.
 
-1. At the begginig, you can login as an admin or regular user or use the guest account.
+#### 1. At the begginig, you can login as an admin or regular user or use the guest account.
+
 Logging is vaildated by regex expression.
 
-2. Then you can use the methods listed below depending on whether you are an admin or not.
+#### 2. Then you can use the methods listed below depending on whether you are an admin or not.
 
 ## **Regular user methods:**
 - Show all vehicles in the base without fragile data (id of the vehicle)
@@ -31,7 +32,7 @@ Logging is vaildated by regex expression.
 
 Adding new stuff is also validated by regex expressions. 
 
-3. At the end you can choose whether you want to quit or use another method.
+#### 3. At the end you can choose whether you want to quit or use another method.
 
 ## Input files
 There are 4 .txt files:
