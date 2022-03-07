@@ -1,6 +1,6 @@
 # Vehicle Base
 
-This program is an cmd application for a vehilce base of users.
+This program is an cmd application for a vehilce base of persons.
 
 #### 1. At the begginig, you can login as an admin or regular user or use the guest account.
 
