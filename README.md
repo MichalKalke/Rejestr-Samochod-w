@@ -32,7 +32,7 @@ Logging is vaildated by regex expression.
 
 Adding new stuff is also validated by regex expressions. 
 
-#### 3. At the end you can choose whether you want to quit or use another method.
+#### 3. At the end you can choose whether you want to quit or use another method, the data from your operations are written to the output file.
 
 ## Input files
 There are 4 .txt files:
